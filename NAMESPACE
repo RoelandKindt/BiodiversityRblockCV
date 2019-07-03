@@ -1,0 +1,5 @@
+import(BiodiversityR, devtools)
+
+export(ensemble.spatialBlock, ensemble.envBlock,
+    .onAttach)
+

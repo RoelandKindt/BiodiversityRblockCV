@@ -1,0 +1,13 @@
+Package: BiodiversityRblockCV
+Type: Package
+Title: blockCV Functions for Ensemble Suitability Modelling
+Version: 1.0
+Date: 2019-7-02
+Author: Roeland Kindt
+Maintainer: Roeland Kindt <R.KINDT@CGIAR.ORG>
+Description: The blockCV package that creates spatially or environmentally separated folds for cross-validation of suitability models is available with details and installation guidelines from <https://github.com/rvalavi/blockCV>. However, blockCV can not be installed from CRAN and could therefore not be called internally from the BiodiversityR package. BiodiversityRblockCV provides two functions (ensemble.spatialBlock and ensemble.envBlock) that call blockCV internally to create data sets with information on calibration (training) and evaluation (testing) folds. Outputs from the functions can be directly imported in BiodiversityR.
+License: GPL-2
+URL: http://www.worldagroforestry.org/output/tree-diversity-analysis
+Depends: BiodiversityR (>= 2.11-2), devtools
+Suggests: sf, dismo, ggplot2, raster, sp, blockCV
+Packaged: R. Kindt
